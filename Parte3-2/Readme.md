@@ -18,13 +18,13 @@ Sigue los siguientes pasos para clonar el repositorio y ejecutar el entorno.
 Primero, clona el repositorio en tu máquina local:
 
 ```bash
-git clone <URL_DEL_REPOSITORIO>
+git clone https://github.com/Jacoroch/PruebaDatos
 ```
 ### 2. Navegar a la carpeta del proyecto
 
 Una vez clonado el repositorio, navega a la carpeta del proyecto:
 ```bash
-cd <nombre_del_repositorio>/parte3-2
+cd PruebaDatos/parte3-2
 ```
 ### 3. Ejecutar Docker Compose
 
