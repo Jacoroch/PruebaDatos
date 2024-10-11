@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:14
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: contraseñaPostgres
+      POSTGRES_DB: prueba_datos
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql  # Montar el archivo init.sql para crear las tablas
+
+  python-app:
+    build: .
+    depends_on:
+      - postgres
+    environment:
+      POSTGRES_HOST: postgres
+      POSTGRES_DB: prueba_datos
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: contraseñaPostgres
+    volumes:
+      - ./empleados.csv:/app/empleados.csv
+    command: python3 /app/loadEmpleados.py  # Ejecutar el script Python para cargar los datos
+
+volumes:
+  postgres_data:

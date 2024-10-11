@@ -1,0 +1,3 @@
+id_empleado,nombre,apellido,fecha_contratacion,salario,id_departamento
+10,Maria,Pardo,2023-05-01,33000.0,1
+11,Pedro,Perez,2022-12-01,30000.0,4
