@@ -1,49 +1,42 @@
 name: Weather Data Automation
 
-# Configurar para que se ejecute diariamente y también al hacer push
 on:
-  push:                # Esto asegura que se ejecute al hacer push
+  push:
     branches:
-      - main           # Ajusta el nombre de la rama a la que haces push
-  schedule:            # Esto configura la ejecución diaria
-    - cron: '0 0 * * *'  # A las 00:00 UTC todos los días
+      - main
+  schedule:
+    - cron: '0 0 * * *'
 
 jobs:
   run-weather-data-script:
-    runs-on: ubuntu-latest  # Especifica que la acción se ejecuta en Ubuntu
+    runs-on: ubuntu-latest
 
     steps:
-    # Clonar el repositorio
     - name: Clonar el repositorio
       uses: actions/checkout@v2
 
-    # Cambiar al directorio Parte3-3
     - name: Navegar a la carpeta Parte3-3
       run: cd Parte3-3
 
-    # Configurar Python
     - name: Configurar Python
       uses: actions/setup-python@v2
       with:
         python-version: '3.x'
 
-    # Instalar dependencias (psycopg2 puede fallar si no está la base de datos)
     - name: Instalar dependencias
       run: |
         python -m pip install --upgrade pip
         pip install psycopg2-binary requests || echo "Error en la base de datos, continuando con la ejecución"
 
-    # Ejecutar el script Python
     - name: Ejecutar script de obtención de datos meteorológicos
       run: |
-        cd Parte3-3  # Asegúrate de que el script está en la carpeta correcta
+        cd Parte3-3
         python weather_data.py || echo "Error en la base de datos, generando solo el CSV"
 
-    # Agregar y subir el archivo CSV actualizado
     - name: Agregar y subir CSV
       run: |
         git config --global user.name 'GitHub Action'
         git config --global user.email 'action@github.com'
         git add Parte3-3/weather_data.csv
         git commit -m 'Actualizar archivo CSV de datos meteorológicos'
-        git push
+        git push https://x-access-token:${{ secrets.PAT_GITHUB }}@github.com/Jacoroch/PruebaDatos.git HEAD:main
