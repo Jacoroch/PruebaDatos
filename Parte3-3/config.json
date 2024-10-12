@@ -1,5 +1,5 @@
 {
-    "api_key": "TU_API_KEY_AQUI",
+    "api_key": "API_KEY",
     "cities": ["Medellín", "Bogotá", "Tokyo", "Sydney","New York"],
     "postgres": {
       "host": "localhost",
