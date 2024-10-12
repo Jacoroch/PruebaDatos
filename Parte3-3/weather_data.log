@@ -12,3 +12,59 @@
 2024-10-11 19:27:39,016 INFO:Datos de Tokyo almacenados correctamente.
 2024-10-11 19:27:39,191 INFO:Datos de Sydney almacenados correctamente.
 2024-10-11 19:27:39,357 INFO:Datos de New York almacenados correctamente.
+2024-10-11 19:42:52,450 INFO:Datos de Medellín almacenados o actualizados correctamente.
+2024-10-11 19:42:52,620 INFO:Datos de Bogotá almacenados o actualizados correctamente.
+2024-10-11 19:42:52,789 INFO:Datos de Tokyo almacenados o actualizados correctamente.
+2024-10-11 19:42:52,959 INFO:Datos de Sydney almacenados o actualizados correctamente.
+2024-10-11 19:42:53,169 INFO:Datos de New York almacenados o actualizados correctamente.
+2024-10-11 19:43:13,441 INFO:Datos de Medellín almacenados o actualizados correctamente.
+2024-10-11 19:43:13,629 INFO:Datos de Bogotá almacenados o actualizados correctamente.
+2024-10-11 19:43:13,821 INFO:Datos de Tokyo almacenados o actualizados correctamente.
+2024-10-11 19:43:14,015 INFO:Datos de Sydney almacenados o actualizados correctamente.
+2024-10-11 19:43:14,285 INFO:Datos de New York almacenados o actualizados correctamente.
+2024-10-11 19:46:05,661 INFO:Datos de Medellín almacenados o actualizados correctamente.
+2024-10-11 19:46:05,870 INFO:Datos de Bogotá almacenados o actualizados correctamente.
+2024-10-11 19:46:06,070 INFO:Datos de Tokyo almacenados o actualizados correctamente.
+2024-10-11 19:46:06,245 INFO:Datos de Sydney almacenados o actualizados correctamente.
+2024-10-11 19:46:06,434 INFO:Datos de New York almacenados o actualizados correctamente.
+2024-10-11 19:50:58,796 INFO:Datos de Medellín almacenados o actualizados correctamente.
+2024-10-11 19:50:58,998 INFO:Datos de Bogotá almacenados o actualizados correctamente.
+2024-10-11 19:50:59,194 INFO:Datos de Tokyo almacenados o actualizados correctamente.
+2024-10-11 19:50:59,364 INFO:Datos de Sydney almacenados o actualizados correctamente.
+2024-10-11 19:50:59,557 INFO:Datos de New York almacenados o actualizados correctamente.
+2024-10-11 19:50:59,558 INFO:Archivo CSV generado: weather_data_2024-10-11.csv
+2024-10-11 19:51:22,197 INFO:Datos de Medellín almacenados o actualizados correctamente.
+2024-10-11 19:51:22,401 INFO:Datos de Bogotá almacenados o actualizados correctamente.
+2024-10-11 19:51:22,596 INFO:Datos de Tokyo almacenados o actualizados correctamente.
+2024-10-11 19:51:22,898 INFO:Datos de Sydney almacenados o actualizados correctamente.
+2024-10-11 19:51:23,292 INFO:Datos de New York almacenados o actualizados correctamente.
+2024-10-11 19:51:23,293 INFO:Archivo CSV generado: weather_data_2024-10-11.csv
+2024-10-11 19:54:34,153 INFO:Datos de Medellín almacenados o actualizados correctamente.
+2024-10-11 19:54:34,462 INFO:Datos de Bogotá almacenados o actualizados correctamente.
+2024-10-11 19:54:34,756 INFO:Datos de Tokyo almacenados o actualizados correctamente.
+2024-10-11 19:54:35,054 INFO:Datos de Sydney almacenados o actualizados correctamente.
+2024-10-11 19:54:35,347 INFO:Datos de New York almacenados o actualizados correctamente.
+2024-10-11 19:55:18,553 INFO:Datos de Medellín almacenados o actualizados correctamente.
+2024-10-11 19:55:18,761 INFO:Datos de Bogotá almacenados o actualizados correctamente.
+2024-10-11 19:55:18,938 INFO:Datos de Tokyo almacenados o actualizados correctamente.
+2024-10-11 19:55:19,113 INFO:Datos de Sydney almacenados o actualizados correctamente.
+2024-10-11 19:55:19,310 INFO:Datos de New York almacenados o actualizados correctamente.
+2024-10-11 19:55:19,311 INFO:Datos añadidos al archivo CSV: weather_data.csv
+2024-10-11 19:58:12,621 INFO:Datos de Medellín almacenados o actualizados correctamente.
+2024-10-11 19:58:12,813 INFO:Datos de Bogotá almacenados o actualizados correctamente.
+2024-10-11 19:58:13,031 INFO:Datos de Tokyo almacenados o actualizados correctamente.
+2024-10-11 19:58:13,242 INFO:Datos de Sydney almacenados o actualizados correctamente.
+2024-10-11 19:58:13,409 INFO:Datos de New York almacenados o actualizados correctamente.
+2024-10-11 19:58:13,410 INFO:Datos añadidos al archivo CSV: weather_data.csv
+2024-10-11 19:59:07,025 INFO:Datos de Medellín almacenados o actualizados correctamente.
+2024-10-11 19:59:07,237 INFO:Datos de Bogotá almacenados o actualizados correctamente.
+2024-10-11 19:59:07,402 INFO:Datos de Tokyo almacenados o actualizados correctamente.
+2024-10-11 19:59:07,611 INFO:Datos de Sydney almacenados o actualizados correctamente.
+2024-10-11 19:59:07,818 INFO:Datos de New York almacenados o actualizados correctamente.
+2024-10-11 19:59:07,819 INFO:Datos añadidos al archivo CSV: weather_data.csv
+2024-10-11 20:12:20,282 INFO:Datos de Medellín almacenados o actualizados correctamente.
+2024-10-11 20:12:20,479 INFO:Datos de Bogotá almacenados o actualizados correctamente.
+2024-10-11 20:12:20,739 INFO:Datos de Tokyo almacenados o actualizados correctamente.
+2024-10-11 20:12:20,950 INFO:Datos de Sydney almacenados o actualizados correctamente.
+2024-10-11 20:12:21,118 INFO:Datos de New York almacenados o actualizados correctamente.
+2024-10-11 20:12:21,119 INFO:Datos añadidos al archivo CSV: weather_data.csv

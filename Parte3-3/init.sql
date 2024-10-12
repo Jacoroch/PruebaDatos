@@ -7,3 +7,6 @@ CREATE TABLE weather_data (
     wind_speed DECIMAL(5, 2),
     date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
+ALTER TABLE weather_data
+ADD CONSTRAINT unique_city UNIQUE (city);

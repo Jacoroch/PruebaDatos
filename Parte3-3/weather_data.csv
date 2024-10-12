@@ -1,0 +1,21 @@
+city,description,temperature,humidity,wind_speed,timestamp
+Medellín,few clouds,18.42,91,2.57,2024-10-11 19:55:19
+Bogotá,few clouds,14.73,63,4.12,2024-10-11 19:55:19
+Tokyo,clear sky,21.88,64,3.6,2024-10-11 19:55:19
+Sydney,broken clouds,16.29,64,10.8,2024-10-11 19:55:19
+New York,clear sky,17.93,43,5.66,2024-10-11 19:55:19
+Medellín,few clouds,18.52,92,2.57,2024-10-11 19:58:13
+Bogotá,few clouds,14.73,63,4.12,2024-10-11 19:58:13
+Tokyo,clear sky,22.05,64,3.6,2024-10-11 19:58:13
+Sydney,broken clouds,16.31,64,10.8,2024-10-11 19:58:13
+New York,clear sky,17.93,43,5.66,2024-10-11 19:58:13
+Medellín,few clouds,18.52,92,2.57,2024-10-11 19:59:07
+Bogotá,few clouds,14.73,63,4.12,2024-10-11 19:59:07
+Tokyo,clear sky,22.05,64,3.6,2024-10-11 19:59:07
+Sydney,broken clouds,16.31,64,10.8,2024-10-11 19:59:07
+New York,clear sky,17.93,43,5.66,2024-10-11 19:59:07
+Medellín,broken clouds,18.52,93,2.24,2024-10-11 20:12:21
+Bogotá,few clouds,11.73,82,1.54,2024-10-11 20:12:21
+Tokyo,clear sky,22.23,63,3.6,2024-10-11 20:12:21
+Sydney,overcast clouds,16.32,64,10.8,2024-10-11 20:12:21
+New York,clear sky,17.58,45,3.6,2024-10-11 20:12:21
