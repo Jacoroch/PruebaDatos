@@ -1,0 +1,11 @@
+{
+    "api_key": "TU_API_KEY_AQUI",
+    "cities": ["Medellín", "Bogotá", "Tokyo", "Sydney"],
+    "postgres": {
+      "host": "localhost",
+      "database": "datos_clima",
+      "user": "jacoborodriguez",
+      "password": ""
+    }
+  }
+  
